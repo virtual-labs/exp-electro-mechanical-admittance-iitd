@@ -4,5 +4,5 @@
 
 3.	Link to the <a href="https://web.iitd.ac.in/~sbhalla/thesispdf/sumedha.pdf">thesis of Dr. Sumedha Mohrana</a>.
 
-4.	Literature on piezoelectric sensors.
+4.	<a href="http://ssdl.iitd.ac.in/vssdl/piezo.pdf">Literature on piezoelectric sensors</a>.
 
