@@ -1,7 +1,8 @@
 ### EXPERIMENTAL METHODOLOGY
 	
-OVERVIEW
-The phenomenon of difference in the strain induced in the PZT patch from that in the host structure is called as shear lag effect. Figure 1 illustrates the process of actuation of a PZT patch by application of external voltage. As can be seen from the figure, the displacement induced on the surface of the host structure(µo) is lesser than that in the PZT patch (µPo) more about shear lag effect, the user may refer the doctoral thesis of Dr.Sumedha Moharana (http://web.iitd.ac.in/~sbhalla/thesispdf/sumedha.pdf).
+**OVERVIEW**
+
+The phenomenon of difference in the strain induced in the PZT patch from that in the host structure is called as shear lag effect. Figure 1 illustrates the process of actuation of a PZT patch by application of external voltage. As can be seen from the figure, the displacement induced on the surface of the host structure(µ<sub>o</sub>) is lesser than that in the PZT patch (µP<sub>o</sub>) more about shear lag effect, the user may refer the doctoral thesis of Dr. Sumedha Moharana (http://web.iitd.ac.in/~sbhalla/thesispdf/sumedha.pdf).
 
 
 <img src="images/th1.png"/>
