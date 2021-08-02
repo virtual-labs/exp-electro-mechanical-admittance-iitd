@@ -1,6 +1,6 @@
 ### These steps will be followed for the experiment
 
-**PRE EXPRIMENT QUIZ QUESTIONS**
+**PRE EXPERIMENT QUIZ QUESTIONS**
 	
 1) What is shear lag effect?
 2) How does thickness of bond layer affect strain transfer to/from the PZT patch to the structure?
@@ -9,32 +9,33 @@
 
 #### Preparation of specimens:
 
-Click on Start Experiment button to start the experiment.
+Click on start experiment button to start the experiment.
 
 <img src="images/pr1.png"/>
 
-Step 1: a). Click on Add button to add Beam in the lab.
-Step 1: b). Click on Beam to arrange them in right position.
+Step 1: a). Click on add button to add beam in the lab.
+
+Step 1: b). Click on beam to arrange it in right position.
 
 <img src="images/pr2.png"/>
 
-Step 1: c). Click Add button to add PZT in the lab.
+Step 1: c). Click add button to add PZT in the lab.
 
 <img src="images/pr3.png"/>
 
-Step 1: d). Click Add button to add Bond in the lab.
+Step 1: d). Click add button to add bond in the lab.
 
 <img src="images/pr4.png"/>
 
-Step 1: e). Click on Eye icon to see the Top View.
+Step 1: e). Click on eye icon to see the top view.
 
 <img src="images/pr5.png"/>
 
-Step 2: a). Click on PZT to flip it to apply Bond.
+Step 2: a). Click on PZT to flip it to apply bond.
 
 <img src="images/pr6.png"/>
 
-Step 2: b). Click on Brush to apply Bond on PZT.
+Step 2: b). Click on brush to apply bond on PZT.
 
 <img src="images/pr7.png"/>
 
@@ -42,7 +43,7 @@ Step 2: c). Click on PZT to fix it on beam.
 
 <img src="images/pr8.png"/>
 
-Step 2: d). Click on Eye icon to see the Side View.
+Step 2: d). Click on eye icon to see the side view.
 
 <img src="images/pr9.png"/>
  
@@ -58,11 +59,11 @@ Graph
 
 <img src="images/pr13.png"/>
 
-Click on Download button to download data.
-After Click Restart button
+Click on download button to download data.
+After click restart button
 <img src="images/pr14.png"/>
 
-**POST EXPRIMENT QUIZ QUESTIONS**
+**POST EXPERIMENT QUIZ QUESTIONS**
 
 1) How does the presence of bond layer affect conductance signature as
 compared to perfect bonding case?
