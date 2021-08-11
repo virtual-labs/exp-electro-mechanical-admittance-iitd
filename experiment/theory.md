@@ -6,7 +6,7 @@ The phenomenon of difference in the strain induced in the PZT patch from that in
 
 <center>
 <img src="images/th1.png"/>
-<center>
+</center>
 	
 **EXPERIMENTAL PROCEDURE**
 
