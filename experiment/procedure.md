@@ -19,7 +19,7 @@ Step 1: b). Click on beam to arrange it in right position.
 
 <img src="images/pr2.png"/>
 
-Step 1: c). Click add button to add PZT in the lab.
+Step 1: c). Click add button to add PZT patch in the lab.
 
 <img src="images/pr3.png"/>
 
@@ -31,15 +31,15 @@ Step 1: e). Click on eye icon to see the top view.
 
 <img src="images/pr5.png"/>
 
-Step 2: a). Click on PZT to flip it to apply bond.
+Step 2: a). Click on PZT patch to flip it to apply bond.
 
 <img src="images/pr6.png"/>
 
-Step 2: b). Click on brush to apply bond on PZT.
+Step 2: b). Click on brush to apply bond on PZT patch.
 
 <img src="images/pr7.png"/>
 
-Step 2: c). Click on PZT to fix it on beam.
+Step 2: c). Click on PZT patch to fix it on beam.
 
 <img src="images/pr8.png"/>
 
