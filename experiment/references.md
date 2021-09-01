@@ -2,7 +2,7 @@
 
 2.	Moharana, S. and Bhalla, S. (2014), "A Continuum Based Modelling Approach for Adhesively Bonded Piezo-Transducers for EMI Technique" <u>International Journal of Solids and Structures</u>, Vol. 51, No. 6 (Mar), pp. 1299-1310. DOI: 10.1016/j.ijsolstr.2013.12.022 
 
-3.	Link to the <a href="https://web.iitd.ac.in/~sbhalla/thesispdf/sumedha.pdf">thesis of Dr. Sumedha Mohrana</a>.
+3.	Modelling of Piezo-Structure Elastodynamic Interaction Thfough Bond Layer for Electremechanical Impedance Technique by <a href="https://web.iitd.ac.in/~sbhalla/thesispdf/sumedha.pdf">Dr. Sumedha Mohrana</a>.
 
 4.	<a href="http://ssdl.iitd.ac.in/vssdl/piezo.pdf">Literature on piezoelectric sensors</a>.
 
