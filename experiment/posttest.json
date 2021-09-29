@@ -1,0 +1,26 @@
+[{
+	"question": "Q1. As per IS 800:2007, shear lag effects in flanges may be disregarded for outstand elements if",
+	"answers": {
+		"a": "bo ? L0 / 20",
+		"b": "bo ? L0 / 30",
+		"c": "bo < L0 / 20",
+		"d": "bo = L0 / 10"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "Q2. What is shear lag effect ?",
+	"answers": {
+		"a": "The phenomenon of non uniform bending stress not due to influence of shear strain induced on bending stresses in flanges",
+		"b": "The phenomenon of uniform bending stress not due to influence of shear strain induced on bending stresses in flanges",
+		"c": "The phenomenon of uniform bending stress due to influence of shear strain induced on bending stresses in flanges",
+		"d": "The phenomenon of non uniform bending stress due to influence of shear strain induced on bending stresses in flanges"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "Q3. The displacement induced on the surface of the host structure (u<sub>0</sub>)  is lesser than that in the PZT patch (uP<sub>0</sub>)",
+	"answers": {
+		"a": "True",
+		"b": "False"
+	},
+	"correctAnswer": "a"
+}]
