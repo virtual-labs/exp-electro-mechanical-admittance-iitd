@@ -6,7 +6,7 @@
 		"c": "Both a & b",
 		"d": "None of the above"
 	},
-	"correctAnswer": "b"
+	"correctAnswer": "c"
 },  {
 	"question": "Q2. When PZT patch is used as an actuator, the displacement induced on the surface of the host structure (u<sub>0</sub>)  is lesser than that in the PZT patch (uP<sub>0</sub>)",
 	"answers": {
