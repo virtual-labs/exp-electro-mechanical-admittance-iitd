@@ -1,28 +1,18 @@
 [{
-	"question": "Q1. The phenomenon of difference in the strain induced in the PZT patch from that in the host structure is called as.",
+	"question": "Q1. Shear lag effect depends on",
 	"answers": {
-		"a": "Surface of the host structure",
-		"b": "Shear lag effect",
-		"c": "Analytical model",
-		"d": "Bond layer"
+		"a": "Stiffness of adhesive layer",
+		"b": "Thickness of adhesive layer",
+		"c": "Both a & b",
+		"d": "None of the above"
 	},
 	"correctAnswer": "b"
-}, {
-	"question": "Q2. Shear lag effect depends on",
+},  {
+	"question": "Q2. When PZT patch is used as an actuator, the displacement induced on the surface of the host structure (u<sub>0</sub>)  is lesser than that in the PZT patch (uP<sub>0</sub>)",
 	"answers": {
-		"a": "Material of beam",
-		"b": "Width of beam only",
-		"c": "Width-to-span ratio",
-		"d": "Cost"
+		"a": "True",
+		"b": "False"
+	
 	},
-	"correctAnswer": "c"
-}, {
-	"question": "Q3. As per IS 800:2007, shear lag effects in flanges may be disregarded for internal elements if",
-	"answers": {
-		"a": "bi ? L0 / 10",
-		"b": "bi ? L0 / 20",
-		"c": "bi > L0 / 10",
-		"d": "bi = L0 / 20"
-	},
-	"correctAnswer": "c"
+	"correctAnswer": "a"
 }]
