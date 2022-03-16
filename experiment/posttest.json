@@ -1,23 +1,23 @@
 [{
-	"question": "Q1. As per IS 800:2007, shear lag effects in flanges may be disregarded for outstand elements if",
+	"question": "Q1. The shear lag effect is",
 	"answers": {
-		"a": "bo ? L0 / 20",
-		"b": "bo ? L0 / 30",
-		"c": "bo < L0 / 20",
-		"d": "bo = L0 / 10"
+		"a": "Differential movement of the piezo patch and the structure owing to shear deformation of adhesive layer",
+		"b": "Shear deformation of the structure",
+		"c": "Both (a) and (b)",
+		"d": "None of (a) and (b)"
 	},
 	"correctAnswer": "a"
 }, {
-	"question": "Q2. What is shear lag effect ?",
+	"question": "Q2. The main element contributing to shear lag effect is:",
 	"answers": {
-		"a": "The phenomenon of non uniform bending stress not due to influence of shear strain induced on bending stresses in flanges",
-		"b": "The phenomenon of uniform bending stress not due to influence of shear strain induced on bending stresses in flanges",
-		"c": "The phenomenon of uniform bending stress due to influence of shear strain induced on bending stresses in flanges",
-		"d": "The phenomenon of non uniform bending stress due to influence of shear strain induced on bending stresses in flanges"
+		"a": "Structure",
+		"b": "Adhesive",
+		"c": "PZT patch",
+		"d": "LCR meter"
 	},
 	"correctAnswer": "d"
 }, {
-	"question": "Q3. The displacement induced on the surface of the host structure (u<sub>0</sub>)  is lesser than that in the PZT patch (uP<sub>0</sub>)",
+	"question": "Q3. The displacement induced on the surface of the host structure (u<sub>0</sub>)  is lesser than that in the PZT patch (u<sub>p0</sub>)",
 	"answers": {
 		"a": "True",
 		"b": "False"
