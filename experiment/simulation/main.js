@@ -1388,6 +1388,7 @@ function showzoom1()
         document.getElementById("eff2").style.visibility="visible";
         document.getElementById("eff2").style.animation="shake2 3s infinite";
         document.getElementById("eff3").style.visibility="visible";
+        document.getElementById("efffront").style.visibility="visible";
         document.getElementById("eff3").style.animation="shake3 3s infinite";
     },2650);
 
