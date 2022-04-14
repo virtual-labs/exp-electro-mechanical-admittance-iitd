@@ -80,15 +80,15 @@
 
             <p class="incanvas" style="font-size:15px;"><strong>Apparatus used:</strong></p>
 
-            <p class="incanvas" style="font-size:14px;">Host Structure, PZT</p></br>
+            <p class="incanvas" style="font-size:14px;">Host Structure, PZT patch, Epoxy</p></br>
 </div>
             <img src="images/ssb.png" style="position:absolute; left: 120px; top: 420px; height: 60px; width: 300px;" title="Beam" />
 
            
 
-            <img src="images/man.png" style="position:absolute;left: 575px; top: 75px; height: 370px;" title="Man" />
+            <img src="images/man.png" style="position:absolute;left: 575px; top: 110px; height: 370px;" title="Man" />
 
-            <!-- <p class="incanvas" style="font-size:18px; text-align: center; position:absolute; left:400px; top:400px;"><strong>Speciman Type<br>Beam</strong></p> -->
+            <!-- <p class="incanvas" style="font-size:18px; text-align: center; position:absolute; left:400px; top:400px;"><strong>Specimen Type<br>Beam</strong></p> -->
 
 
             <span class="blink_me" style="position:absolute; font-size: 30px; left: 595px; top: 490px; color: ; visibility: ;"><strong><i class="fa fa-arrow-right"></i></strong></span>
@@ -108,11 +108,13 @@
 
             <p class="incanvas" id="step2b" style="font-size:14px; position: absolute; left: 0px; top: 5px; visibility: hidden;"><strong>Step 1: b).</strong><i class="fa fa-hand-o-right"></i> Click on beam to arrange it in right position.</p>
 
-            <p class="incanvas" id="step2c" style="font-size:14px; position: absolute; left: 0px; top: 5px; visibility: hidden;"><strong>Step 1: c).</strong><i class="fa fa-hand-o-right"></i> Click add button to add PZT in the lab.</p><br><br>
+            <p class="incanvas" id="step2c" style="font-size:14px; position: absolute; left: 0px; top: 5px; visibility: hidden;"><strong>Step 1: c).</strong><i class="fa fa-hand-o-right"></i> Click add button to add PZT patch in the lab.</p><br><br>
             
-            <p class="incanvas" id="step2d" style="font-size:14px; position: absolute; left: 0px; top: 5px; visibility: hidden;"><strong>Step 1: d).</strong><i class="fa fa-hand-o-right"></i> Click add button to add bond in the lab.</p>
+            <p class="incanvas" id="step2d" style="font-size:14px; position: absolute; left: 0px; top: 5px; visibility: hidden;"><strong>Step 1: d).</strong><i class="fa fa-hand-o-right"></i> Click add button to add epoxy in the lab.</p>
             
-            <p class="incanvas" id="step2e" style="font-size:14px; position: absolute; left: 0px; top: 5px; visibility: hidden;"><strong>Step 1: e).</strong><i class="fa fa-hand-o-right"></i> Click on eye icon to see the top view.</p>
+            <p class="incanvas" id="step2e" style="font-size:14px; position: absolute; left: 0px; top: 5px; visibility: hidden;"><strong>Step 1: e).</strong><i class="fa fa-hand-o-right"></i> Click on brush to apply epoxy on PZT patch.</p>
+
+            <p class="incanvas" id="step2f" style="font-size:14px; position: absolute; left: 0px; top: 5px; visibility: hidden;"><strong>Step 1: f).</strong><i class="fa fa-hand-o-right"></i> Click on PZT patch to fix it on beam.</p>
 
             <input type="button" id="addbeam1" style="position:absolute; left: 640px; top: 6px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 1px; padding-bottom: 3px; color: #FFF;" value="&nbsp;Add&nbsp;" onclick="addbeam1()" >
 
@@ -133,7 +135,7 @@
 </div>
 
 
-            <img src="images/beam.png" id="beam1" style="position: absolute; left:320px; top:400px;  visibility: hidden; height: 59px; width: 300px;">
+            <img src="images/beam.png" id="beam1" style="position: absolute; left:320px; top:432px;  visibility: hidden; height: 59px; width: 300px;">
             
             <img src="images/transbox.png" id="transbeam1" style="position: absolute;  visibility: hidden;  height: 50px; width: 400px; left:350px; top:495px;" onclick="movebeam1()"/>
 
@@ -141,25 +143,42 @@
 
            <img src="images/pzt.png" id="pzt1" style="position: absolute; left:320px; top:400px;  visibility: hidden; height: 15px; ">
 
-            <img src="images/bond.png" id="bondbox1" style="position: absolute; left: 320px; top: 265px;  visibility: hidden; height: 59px; ">
+            <img src="images/bond.png" id="bondbox1" style="position: absolute; left: 320px; top: 265px;  visibility: hidden; height: 100px; ">
+
+             <img src="images/brushfill.png" id="brushbox1" style="position: absolute; left: 345px; top: 222px; visibility: hidden; height: 100px;">
+
+             <img src="images/greaseeffect2.png" id="fpzteff" style="position: absolute; left: 320px; top: 430px; visibility: hidden; height: 25px; width: 0px; transform-origin: top center; ">
+
+             <img src="images/brushfill.png" id="brushbox2" style="position: absolute; left: 680px; top: 370px; visibility: hidden; height: 100px;">
+
+             <img src="images/transbox.png" id="tbond1" style="position: absolute; left: 655px; top: 375px; visibility: hidden; height: 100px; border: solid 0px red;" onclick="applybond1()">
+
+             <span class="blink_me" id="arrowboxpzt1" style="position:absolute; font-size: 30px; left: 690px; top: 370px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+             <img src="images/pzt.png" id="pzt2" style="position: absolute; left: 513px; top: 470px;  visibility: hidden; height: 15px; ">
+
+            <span class="blink_me" id="arrowboxpzt2" style="position:absolute; font-size: 30px; left: 540px; top: 430px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+             <img src="images/transbox.png" id="tbpzt1" style="position: absolute; left: 505px; top: 435px; visibility: hidden; height: 60px; width: 110px; border: solid 0px red;" onclick="fixpztplace()">
 
             <div id="a_size" style="position: absolute; left: 50px; top: 100px; height: 100px; width: 300px; border: 2px solid #ff6600; background-color: #FFF; visibility: hidden;">
-                <span style="position: absolute; left: 10px; top: 10px; font-size:  ;">Diamension of Alluminium Block</span>
-                <span style="position: absolute; left: 10px; top: 30px; font-size: ;">L = 10 mm</span>
+                <span style="position: absolute; left: 10px; top: 10px; font-size:  ;">Diamension of Aluminium Block</span>
+                <span style="position: absolute; left: 10px; top: 30px; font-size: ;">L = 48 mm</span>
                 <span style="position: absolute; left: 10px; top: 50px; font-size: ;">B = 48 mm</span>
-<!--                 <span style="position: absolute; left: 10px; top: 70px; font-size: ;">H = </span> -->
+<!--                 <span style="position: absolute; left: 10px; top: 70px; font-size: ;">h = </span> -->
             </div>
 
             <div id="p_size" style="position: absolute; left: 450px; top: 100px; height: 100px; width: 300px; border: 2px solid #ff6600; background-color: #FFF; visibility: hidden;">
-                <span style="position: absolute; left: 10px; top: 10px; font-size:  ;">Diamension of PZT</span>
-                <span style="position: absolute; left: 10px; top: 30px; font-size: ;">L = 10 mm</span>
-                <span style="position: absolute; left: 10px; top: 50px; font-size: ;">B = 10 mm</span>
-                <span style="position: absolute; left: 10px; top: 70px; font-size: ;">H = 0.3 mm</span>
+                <span style="position: absolute; left: 10px; top: 10px; font-size:  ;">Diamension of PZT patch</span>
+                <span style="position: absolute; left: 10px; top: 30px; font-size: ;">l = 10 mm</span>
+                <span style="position: absolute; left: 10px; top: 50px; font-size: ;">b = 10 mm</span>
+                <span style="position: absolute; left: 10px; top: 70px; font-size: ;">h = 0.3 mm</span>
             </div>
-            <!--Blinking arrowcubox 
-            <span class="blink_me" id="arrowcubox3" style="position:absolute; font-size: 30px; left: 710px; top: 510px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
 
-             <i class="fa fa-hand-o-right" id="nextButton3" style="color: #764C28; position:absolute; left: 750px; top: 510px; font-size: 35px; visibility: hidden;" onclick="navNext3()"></i>      -->   
+            <!--Blinking arrowcubox -->
+            <span class="blink_me" id="arrowcuboxpzt3" style="position:absolute; font-size: 30px; left: 710px; top: 510px; color: ; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+             <i class="fa fa-hand-o-right" id="nextButtonpzt3" style="color: #764C28; position:absolute; left: 750px; top: 510px; font-size: 35px; visibility: hidden;" onclick="navNext4()"></i>         
 
             <!---img style="position:absolute; left:10px; top:480px; cursor:pointer;" id="backButton3" onClick="navBack3()" src="Back.png" /--->
 
@@ -176,11 +195,11 @@
 
 <div id="transwhite" style="height: 45px;" >
 
-            <p class="incanvas" id="step3a" style="font-size:14px; position: absolute; left: 0px; top: 5px; visibility: ;"><strong>Step 2: a).</strong><i class="fa fa-hand-o-right"></i> Click on PZT to flip it to apply bond.</p><br><br>
+            <p class="incanvas" id="step3a" style="font-size:14px; position: absolute; left: 0px; top: 5px; visibility: ;"><strong>Step 2: a).</strong><i class="fa fa-hand-o-right"></i> Click on PZT patch to flip it to apply epoxy.</p><br><br>
 
-            <p class="incanvas" id="step3b" style="font-size:14px; position: absolute; left: 0px; top: 5px; visibility: hidden;"><strong>Step 2: b).</strong><i class="fa fa-hand-o-right"></i> Click on brush to apply bond on PZT.</p>
+            <p class="incanvas" id="step3b" style="font-size:14px; position: absolute; left: 0px; top: 5px; visibility: hidden;"><strong>Step 2: b).</strong><i class="fa fa-hand-o-right"></i> Click on brush to apply epoxy on PZT patch.</p>
 
-            <p class="incanvas" id="step3c" style="font-size:14px; position: absolute; left: 0px; top: 5px; visibility: hidden;"><strong>Step 2: c).</strong><i class="fa fa-hand-o-right"></i> Click on PZT to fix it on beam.</p><br><br>
+            <p class="incanvas" id="step3c" style="font-size:14px; position: absolute; left: 0px; top: 5px; visibility: hidden;"><strong>Step 2: c).</strong><i class="fa fa-hand-o-right"></i> Click on PZT patch to fix it on beam.</p><br><br>
             
             <p class="incanvas" id="step3d" style="font-size:14px; position: absolute; left: 0px; top: 5px; visibility: hidden;"><strong>Step 2: d).</strong><i class="fa fa-hand-o-right"></i> Click on eye icon to see the side view.</p>
             
@@ -210,7 +229,7 @@
 
             <img src="images/tt_pztwbond.png" id="fpzt3" style="position: absolute; left:245px; top:311px;  visibility: hidden; height: 55px; transform-origin: bottom center; ">
             
-            <img src="images/greaseeffect2.png" id="fpzteff" style="position: absolute; left:517px; top:309px;  visibility: hidden; height: 55px; transform-origin: top center; ">
+            
 
             <img src="images/greaseeffect2.png" id="fpzteff1" style="position: absolute; left:517px; top:309px;  visibility: hidden; height: 31px; width: 0px; transform-origin: top center; ">
 
@@ -230,7 +249,7 @@
 
             <img src="images/ttbond.png" id="bondbox1" style="position: absolute; left: 650px; top: 325px; visibility: ; height: 70px;">
 
-            <img src="images/brushfill.png" id="brushbox1" style="position: absolute; left: 665px; top: 272px; visibility: ; height: 100px;">
+           
 
             <img src="images/transbox.png" id="tbond1" style="position: absolute; left: 640px; top: 285px; visibility: hidden; height: 100px; border: solid 0px red;" onclick="bondaply1()">
 
@@ -259,12 +278,12 @@
 
 <div id="transwhite" style="height: 45px;" >
 
-            <p class="incanvas" id="step2a" style="font-size:14px; position: absolute; left: 0px; top: 5px; visibility: ;"><strong><i class="fa fa-hand-o-right"></i> Deformation of host structure is smaller than PZT patch and bond layer</strong>
+            <p class="incanvas" id="step2a" style="font-size:14px; position: absolute; left: 0px; top: 5px; visibility: ;"><strong><i class="fa fa-hand-o-right"></i> Deformation of host structure is smaller than PZT patch and epoxy layer</strong>
             </p><br><br>
 
-            <p class="incanvas" id="step2b" style="font-size:14px; position: absolute; left: 0px; top: 5px; visibility: hidden;"><strong>Step 1: b).</strong><i class="fa fa-hand-o-right"></i> Click on brush to apply bond on PZT.</p>
+            <p class="incanvas" id="step2b" style="font-size:14px; position: absolute; left: 0px; top: 5px; visibility: hidden;"><strong>Step 1: b).</strong><i class="fa fa-hand-o-right"></i> Click on brush to apply epoxy on PZT patch.</p>
 
-            <p class="incanvas" id="step2c" style="font-size:14px; position: absolute; left: 0px; top: 5px; visibility: hidden;"><strong>Step 1: c).</strong><i class="fa fa-hand-o-right"></i> Click again on PZT to flip it .</p><br><br>
+            <p class="incanvas" id="step2c" style="font-size:14px; position: absolute; left: 0px; top: 5px; visibility: hidden;"><strong>Step 1: c).</strong><i class="fa fa-hand-o-right"></i> Click again on PZT patch to flip it .</p><br><br>
 </div>
            <!-- <p class="incanvas" style="font-size:15px; position: absolute; top: 80px; left: 60px">Frequency,f<sub>n</sub> (in Hz) : </p>  
 
@@ -286,7 +305,7 @@
 
             <img src="images/beam.png" id="beam1" style="position: absolute; left: 200px; top: 430px;  visibility: ; height: 59px; width: 300px;">
             <img src="images/front_bond.png" id="beam1" style="position: absolute; left: 300px; top: 440px; visibility: ; height: 15px; width: 120px;">
-			<img src="images/front_pzt.png" id="beam1" style="position: absolute;left: 300px; top: 427px; visibility: ; height: 22px; width: 116px;">
+			<img src="images/front1_pzt.png" id="beam1" style="position: absolute;left: 300px; top: 427px; visibility: ; height: 22px; width: 116px;">
            
            <img src="images/dash2.png" id="bdash2" style="position: absolute; left: 373px; top: 202px; visibility: hidden; height: 245px; width: 247px;">
 
@@ -300,16 +319,17 @@
 
             <img src="images/loading.gif" id="bg1" style="position: absolute; left: 85px; top: 45px; height: 180px; visibility: ;">
             <img src="images/beam.png" id="eff1" style="position: absolute;left: -49px;top: 110px;visibility: hidden;height: 170px;width: 467px; ">
-            <img src="images/front_bond.png" id="eff2" style="position: absolute;left: 11px;left: -34px;top: 146px;visibility: hidden;height: 35px;width: 215px; ">
-            <img src="images/front_pzt.png" id="eff3" style="position: absolute;left: -41px;top: 110px;visibility: hidden;height: 54px;width: 214px; ">
-</div>
-           <!-- <div id="bigzoom" style="position: absolute; left: 380px; top: 70px; height: 270px; width: 270px; border-radius: 140px; visibility: hidden; background-color: #FFF; border: dashed 2px red; overflow: hidden;">
+            
+            <img src="images/front_pzt.png" id="eff3" style="position: absolute;left: -41px;top: 128px;visibility: hidden;height: 54px;width: 214px; ">
 
-            <img src="images/loading.gif" id="bg1" style="position: absolute; left: -5px; top: 45px; visibility: ; height: 180px;">
-            <img src="images/beam.png" id="eff1" style="position: absolute; left: -100px; top: 110px;visibility: hidden; height: 90px; width: 320px;">
-            <img src="images/front_bond.png" id="eff2" style="position: absolute; left: 80px; top: 120px; visibility: hidden; height: 28px; width: 140px;">
-            <img src="images/front_pzt.png" id="eff3" style="position: absolute; left: 80px; top: 110px; visibility: hidden; height: 25px; width: 134px;">
-           </div> -->
+            <img src="images/front2_pzt.png" id="efffront" style="position: absolute;left: -52px;top: 128px;visibility: hidden;height: 54px;width: 214px; ">
+
+            <img src="images/front_bond2.png" id="eff2" style="position: absolute; left: -45px; top: 153px;visibility: hidden;height: 29px;width: 215px; ">
+	
+<!-- 	<img src="images/front_bond2.png" id="eff2" style="position: absolute;left: 11px;left: -41px;top: 146px;visibility: hidden;height: 35px;width: 215px; "> -->
+<!--             <img src="images/front_pzt.png" id="eff3" style="position: absolute;left: -41px;top: 110px;visibility: hidden;height: 54px;width: 214px; "> -->
+</div>
+           
             <!--Blinking arrowcubox  -->
             <span class="blink_me" id="arrowcubox5" style="position:absolute;visibility: hidden; font-size: 30px; left: 715px; top: 505px; color: ; "><strong><i class="fa fa-arrow-right"></i></strong></span>
 
@@ -328,7 +348,7 @@
 
 <div id="transwhite" style="height: 390px;" >
 
-            <p class="incanvas" id="step2a" style="font-size:14px; position: absolute; left: 0px; top: 5px; visibility: ;"><strong><i class="fa fa-hand-o-right"></i> Strain distribution across the length of pzt patch for various values</strong>
+            <p class="incanvas" id="step2a" style="font-size:14px; position: absolute; left: 0px; top: 5px; visibility: ;"><strong><i class="fa fa-hand-o-right"></i> Strain distribution across the length of PZT patch for various values</strong>
             </p><br><br>
 
              
@@ -368,7 +388,11 @@
 
             <img src="images/loading.gif" id="bg1" style="position: absolute; left: 85px; top: 45px; height: 180px; visibility: ;">
             <img src="images/beam.png" id="eff1" style="position: absolute;left: -49px;top: 110px;visibility: hidden;height: 170px;width: 467px; ">
-            <img src="images/front_bond.png" id="eff2" style="position: absolute;left: 11px;left: -34px;top: 146px;visibility: hidden;height: 35px;width: 215px; ">
+            <img src="images/front_bond2.png" id="eff2" style="position: absolute;left: -38px;
+    top: 154px;
+    visibility: hidden;
+    height: 27px;
+    width: 207px;">
             <img src="images/front_pzt.png" id="eff3" style="position: absolute;left: -41px;top: 110px;visibility: hidden;height: 54px;width: 214px; ">
 </div>
            <!-- <div id="bigzoom" style="position: absolute; left: 380px; top: 70px; height: 270px; width: 270px; border-radius: 140px; visibility: hidden; background-color: #FFF; border: dashed 2px red; overflow: hidden;">
@@ -397,10 +421,15 @@
             <img src="images/front_bond.png" id="beam1" style="position: absolute; left: 300px; top: 240px; visibility: hidden; height: 15px; width: 120px;">
             <img src="images/front_pzt.png" id="beam1" style="position: absolute;left: 300px; top: 227px; visibility: hidden; height: 22px; width: 116px;">
  
-            <img src="images/beam.png" id="eff1" style="position: absolute; left: 55px;top: 110px;visibility: ;height: 170px;width: 590px; ">
-            <img src="images/front_bond.png" id="eff2" style="position: absolute; left: 250px; top: 146px; visibility: ; height: 35px; width: 221px; ">
-            <img src="images/front_pzt.png" id="eff3" style="position: absolute; left: 250px;top: 114px;visibility: ;height: 54px;width: 214px; ">
+            
+	<img src="images/beam.png" id="eff1" style="position: absolute; left: 55px;top: 110px;visibility: ;height: 170px;width: 590px; ">
+            
+	<img src="images/front_bond.png" id="eff2" style="position: absolute; left: 250px; top: 146px; visibility: ; height: 35px; width: 221px; ">
+	
+	<img src="images/front_pzt.png" id="eff3" style="position: absolute; left: 250px;top: 126px;visibility: ;height: 54px;width: 214px; ">
 
+	
+            
 </div>
 
 <span id="name1" style="position: absolute; left: 130px; top: 425px; font-size: 14px;"> Download Data for Perfect Bonding</span>             
@@ -442,7 +471,7 @@
 
             <span class="circlebg">&nbsp;2&nbsp;</span>----->
 <div id="transwhite" style="width: 700px; margin-right: 50px; margin-left: 50px; height: 370px;">
-            <span style="position: absolute; left: 70px; top: 35px; font-size:20px; "><strong>Speciman 3</strong></span>
+            <span style="position: absolute; left: 70px; top: 35px; font-size:20px; "><strong>Specimen 3</strong></span>
 
             <span style="position: absolute; left: 495px; top: 120px; color: red;" id="fillBox3"></span>
 
@@ -600,7 +629,7 @@
 
 <div id="transwhite" style="width: 700px; margin-right: 50px; margin-left: 50px; height: 310px;">
 
-            <span style="position: absolute; left: 70px; top: 35px; font-size:20px; "><strong>Speciman 3</strong></span>
+            <span style="position: absolute; left: 70px; top: 35px; font-size:20px; "><strong>Specimen 3</strong></span>
 
             <span style="position: absolute; left: 500px; top: 250px; color: red;" id="Box3"></span>
 
@@ -675,7 +704,7 @@
             <span class="circlebg">&nbsp;2&nbsp;</span>----->
 <div id="transwhite" style="width: 700px; margin-right: 50px; margin-left: 50px; height: 485px;">
            
-           <span style="position: absolute; left: 70px; top: 35px; font-size:20px; "><strong>Speciman 3</strong></span>
+           <span style="position: absolute; left: 70px; top: 35px; font-size:20px; "><strong>Specimen 3</strong></span>
 
             
 

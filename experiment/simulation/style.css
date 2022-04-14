@@ -289,11 +289,11 @@ font-size: 20px;
 
 {
 	
-	0% {left:100px; top:400px;}
+	0% {left: 320px; top: 265px;}
 
 	/*40%{left:100px; top:350px;}*/
 	
-	100% {left:130px; top:430px;}
+	100% {left: 513px; top: 470px;}
 
 	
 }
@@ -327,7 +327,7 @@ font-size: 20px;
 
 	/*40%{left:260px; top:335px;}*/
 	
-	100% {left: 630px; top: 430px;}
+	100% {left: 630px; top: 420px;}
 }
 
 
@@ -342,11 +342,51 @@ font-size: 20px;
 
 	/*40%{left:260px; top:335px;}*/
 	
-	100% {left: 630px; top: 430px;}
+	100% {left: 650px; top: 420px;}
 
 }
 
+/* Chrome, Safari, Opera */
 
+@-webkit-keyframes movebrush21
+
+{
+	0% {left: 345px; top: 222px;}
+	100% {left: 680px; top: 370px;}
+}
+
+
+
+/* Standard syntax */
+
+@keyframes movebrush21
+
+{	
+	0% {left: 345px; top: 222px;}
+	100% {left: 680px; top: 370px;}
+}
+
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes moveepoxy21
+
+{
+	0% {left: 680px; top: 370px;}
+	50% {left: 320px; top: 352px;}
+	80% {left: 415px; top: 352px;}
+	100% {left: 680px; top: 370px;}
+}
+
+
+
+/* Standard syntax 
+
+@keyframes moveepoxy21
+
+{	
+	0% {left: 680px; top: 370px;}
+	100% {left: 345px; top: 222px;}
+}*/
 
 /* curing cube 2*/
 /* Chrome, Safari, Opera */
@@ -441,20 +481,21 @@ font-size: 20px;
 @keyframes brushgrese2
 
 {
-	
-	0% {width: 0px;left: 520px}
-	30% {width: 0px}
-	/*20% {left: 520px; top: 230px;}
-
-	40% {left: 590px; top: 230px;}
-
-	60% {left: 590px; top: 260px;}
-
-	80% {left: 520px; top: 260px;}*/
-
+	0% {width: 0px;}
+	50% {width: 0px}
+	80% {width: 95px}
 	100% {width: 95px}
-
 }
+
+
+@keyframes fixpzt1
+
+{
+	0% {left: 513px; top: 470px;}
+	100% {left: 320px; top: 435px;}
+	
+}
+
 
 @keyframes brushgrese3
 
@@ -492,10 +533,10 @@ font-size: 20px;
 }
 
 
-@keyframes shake {
+@keyframes shake1 {
   
   10%, 90% {
-    transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-3px, 0, 0);
   }
   
   20%, 80% {
@@ -503,7 +544,7 @@ font-size: 20px;
   }
 
   30%, 50%, 70% {
-    transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-3px, 0, 0);
   }
 
   40%, 60% {
@@ -512,6 +553,45 @@ font-size: 20px;
 
 }
 
+@keyframes shake2 {
+  
+  10%, 90% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(0px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-2px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(0px, 0, 0);
+  }
+
+}
+
+@keyframes shake3 {
+  
+  10%, 90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(0px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(0px, 0, 0);
+  }
+
+}
 
 
 

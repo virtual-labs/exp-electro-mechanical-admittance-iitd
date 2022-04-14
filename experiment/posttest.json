@@ -1,0 +1,26 @@
+[{
+	"question": "Q1. The shear lag effect is",
+	"answers": {
+		"a": "Differential movement of the piezo patch and the structure owing to shear deformation of adhesive layer",
+		"b": "Shear deformation of the structure",
+		"c": "Both (a) and (b)",
+		"d": "None of (a) and (b)"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "Q2. The main element contributing to shear lag effect is:",
+	"answers": {
+		"a": "Structure",
+		"b": "Adhesive",
+		"c": "PZT patch",
+		"d": "LCR meter"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "Q3. The displacement induced on the surface of the host structure (u<sub>0</sub>)  is lesser than that in the PZT patch (u<sub>p0</sub>)",
+	"answers": {
+		"a": "True",
+		"b": "False"
+	},
+	"correctAnswer": "a"
+}]

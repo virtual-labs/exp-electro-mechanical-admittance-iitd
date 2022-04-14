@@ -1185,7 +1185,9 @@ function addbond1(){
 
     document.getElementById("bondbox1").style.visibility="visible";
     document.getElementById("bondbox1").style.animation="movepiler21 2s forwards";
-    
+    document.getElementById("brushbox1").style.visibility="visible";
+    document.getElementById("brushbox1").style.animation="movebrush21 2s forwards";
+
     document.getElementById("addbond1").style.visibility="hidden";
     document.getElementById("arrowbond1").style.visibility="hidden";
 setTimeout(function()
@@ -1193,11 +1195,42 @@ setTimeout(function()
     document.getElementById("step2d").style.visibility="hidden";
     document.getElementById("step2e").style.visibility="visible";
 
-    document.getElementById("arrowcubox3").style.visibility="visible";
-    document.getElementById("nextButton3").style.visibility="visible";
+    document.getElementById("brushbox2").style.visibility="visible";
+    document.getElementById("brushbox1").style.visibility="hidden";
+    document.getElementById("tbond1").style.visibility="visible";
+    document.getElementById("arrowboxpzt1").style.visibility="visible";
 },2000);
 }
 
+function applybond1(){
+
+    document.getElementById("arrowboxpzt1").style.visibility="hidden";
+    document.getElementById("tbond1").style.visibility="hidden";
+    document.getElementById("brushbox2").style.animation="moveepoxy21 4s forwards";
+    document.getElementById("fpzteff").style.visibility="visible";
+    document.getElementById("fpzteff").style.animation="brushgrese2 4s forwards";
+
+setTimeout(function()
+{ 
+    
+    document.getElementById("step2e").style.visibility="hidden";
+    document.getElementById("step2f").style.visibility="visible";
+    document.getElementById("arrowboxpzt2").style.visibility="visible";
+    document.getElementById("tbpzt1").style.visibility="visible";
+    document.getElementById("pzt1").style.visibility="hidden";
+    document.getElementById("pzt2").style.visibility="visible";
+
+},4000);
+}
+
+function fixpztplace()
+{
+    document.getElementById("arrowboxpzt2").style.visibility="hidden";
+    document.getElementById("tbpzt1").style.visibility="hidden";
+    document.getElementById("pzt2").style.animation="fixpzt1 2s forwards";
+    document.getElementById("arrowcuboxpzt3").style.visibility="visible";
+    document.getElementById("nextButtonpzt3").style.visibility="visible";
+}
 
 function flippzt1()
 {
@@ -1249,7 +1282,7 @@ function bondaply1()
     {
         document.getElementById("b_size").style.visibility="visible";
         document.getElementById("fpzteff1").style.visibility="visible";
-        document.getElementById("fpzteff1").style.animation="brushgrese2 2s forwards";
+        document.getElementById("fpzteff1").style.animation="brushgre se2 2s forwards";
     },120);
     // document.getElementById("fpzteff").style.
 setTimeout(function()
@@ -1351,11 +1384,12 @@ function showzoom1()
         document.getElementById("name3").style.visibility="visible";
 
         document.getElementById("eff1").style.visibility="visible";
-        document.getElementById("eff1").style.animation="shake 7s infinite";
+        document.getElementById("eff1").style.animation="shake1 7s infinite";
         document.getElementById("eff2").style.visibility="visible";
-        document.getElementById("eff2").style.animation="shake 3s infinite";
+        document.getElementById("eff2").style.animation="shake2 3s infinite";
         document.getElementById("eff3").style.visibility="visible";
-        document.getElementById("eff3").style.animation="shake 3s infinite";
+        document.getElementById("efffront").style.visibility="visible";
+        document.getElementById("eff3").style.animation="shake3 3s infinite";
     },2650);
 
 setTimeout(function()

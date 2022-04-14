@@ -1,0 +1,18 @@
+[{
+	"question": "Q1. Shear lag effect depends on",
+	"answers": {
+		"a": "Stiffness of adhesive layer",
+		"b": "Thickness of adhesive layer",
+		"c": "Both a & b",
+		"d": "None of the above"
+	},
+	"correctAnswer": "c"
+},  {
+	"question": "Q2. When PZT patch is used as an actuator, the displacement induced on the surface of the host structure (u<sub>0</sub>)  is lesser than that in the PZT patch (u<sub>P0</sub>)",
+	"answers": {
+		"a": "True",
+		"b": "False"
+	
+	},
+	"correctAnswer": "a"
+}]
