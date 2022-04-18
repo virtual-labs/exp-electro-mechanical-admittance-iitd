@@ -44,9 +44,9 @@ Deformation of host structure is smaller than PZT patch and epoxy layer
 Click on next button to show graph
 
 <img src="images/pr9.png"/>
- 
+<br> 
 Graph
-
+<br>
 <img src="images/pr10.png"/>
 
 Click on download button to download data.
